@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(7, 7, 116);
+}
+
+nav {
+  max-width: 600px;
+  width: 80%;
+  height: 50px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  padding: 0 10px;
+
+  margin: 30px auto 0;
+  color: #fff;
+}
+
+nav > ul.navbuttons {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 20px;
+}
